@@ -43,7 +43,7 @@ function pokemonToLi(pokemon) {
 
 function setFirstGeneration() {
     if(checkboxFirstGeneration.checked) return 151;
-    return amountPokemons
+    return amountPokemons.value
 }
 
 loadPokemons.addEventListener("click", () => {
